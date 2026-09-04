@@ -1,27 +1,13 @@
 [project]
 name = "chat-service-ai-frontend"
 version = "0.1.0"
-description = "Add your description here"
+description = "Streamlit frontend for chat service"
 readme = "README.md"
-authors = [
-    { name = "MUNCHKIN", email = "dlrgusdl12345@gmail.com" }
-]
 requires-python = ">=3.11"
+
 dependencies = [
     "httpx>=0.28.1",
     "python-dotenv",
     "requests",
     "streamlit",
-]
-
-[project.scripts]
-chat-service-ai-frontend = "chat_service_ai_frontend:main"
-
-[build-system]
-requires = ["uv_build>=0.12.5,<0.13.0"]
-build-backend = "uv_build"
-
-[tool.uv.workspace]
-members = [
-    "frontend",
 ]
