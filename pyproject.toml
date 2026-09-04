@@ -1,8 +1,7 @@
 [project]
 name = "chat-service-ai-frontend"
 version = "0.1.0"
-description = "Streamlit frontend for chat service"
-readme = "README.md"
+description = "Streamlit frontend"
 requires-python = ">=3.11"
 
 dependencies = [
@@ -11,3 +10,6 @@ dependencies = [
     "requests",
     "streamlit",
 ]
+
+[tool.uv]
+package = false
